@@ -16,6 +16,11 @@ public class GuessGame{
 		int guessp2 = 0;
 		int guessp3 = 0;
 
+		//boolean variables to indicate whether or not the players guesses are correct
+		boolean p1isRight = false;
+		boolean p2isRight = false;
+		boolean p3isRight = false;
+
 		
 
 
