@@ -25,7 +25,13 @@ public class GuessGame{
 		int targetNumber = (int) (Math.random() * 10);
 		System.out.println("I'm thinking of a number between 0 and 9...");
 
-		
+		//while(true){
+			System.out.println("NUmber to guess is "+targetNumber);
+
+			//calls all players to guess
+			p1.guess();
+			p2.guess();
+			p3.guess();
 
 
 		
