@@ -41,7 +41,26 @@ public class GuessGame{
 			guessp3 = p3.number;
 			System.out.println("Player3 guessed "+guessp3);
 
-			
+			//check the player whose guess is right
+			if(guessp1 == targetNumber){
+				p1isRight = true;
+			}else if(guessp2 == targetNumber){
+				p2isRight = true;
+			}else if(guessp3 == targetNumber){
+				p3isRight = true;
+			}
+
+			//System.out.println("We have a winner");
+
+			if(p1isRight){
+				System.out.println("Player1 won!!!");
+			}else if(p2isRight){
+				System.out.println("Player2 won!!!");
+			}else if(p3isRight){
+				System.out.println("Player3 won!!!");
+			}else{
+				System.out.println("Players will have to repeat");
+			}
 
 
 		
