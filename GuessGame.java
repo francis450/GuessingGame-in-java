@@ -11,7 +11,13 @@ public class GuessGame{
 		p2 = new Player();
 		p3 = new Player();
 
+		//variables to hold players guesses
+		int guessp1 = 0;
+		int guessp2 = 0;
+		int guessp3 = 0;
+
 		
+
 
 		
 
