@@ -33,6 +33,16 @@ public class GuessGame{
 			p2.guess();
 			p3.guess();
 
+			//accesing each players number after guessing
+			guessp1 = p1.number;
+			System.out.println("Player1 guessed "+guessp1);
+			guessp2 = p2.number;
+			System.out.println("Player2 guessed "+guessp2);
+			guessp3 = p3.number;
+			System.out.println("Player3 guessed "+guessp3);
+
+			
+
 
 		
 
